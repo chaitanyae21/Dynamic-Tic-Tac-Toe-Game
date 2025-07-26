@@ -1,0 +1,29 @@
+.board-container {
+  margin: 10px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-template-rows: repeat(3, 60px);
+  gap: 5px;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.board-row {
+  display: contents;
+}
+
+.board-winner {
+  margin-top: 8px;
+  font-weight: bold;
+  text-align: center;
+}
